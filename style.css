@@ -13,4 +13,44 @@ body{
     background-position: center;
     background-color: #00000080;
     background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 80px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.descricao {
+    font-size: 40px;
+    color: #ffffff;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#learn-more {
+    width: 200px;
+    height: 40px;
+    background-color: #916846;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+
 }
