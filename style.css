@@ -41,14 +41,43 @@ h1 {
     font-weight: 400;
 }
 
-#learn-more {
-    width: 200px;
+.linkedin {
+    width: 90px;
     height: 40px;
-    background-color: #e7c921;
+    background-color: #ffceaa;
     border-style: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+}
+
+.github {
+    width: 80px;
+    height: 40px;
+    background-color: #ffceaa;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.instagram {
+    width: 105px;
+    height: 40px;
+    background-color: #ffceaa;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+a :hover {
+    background-color: darkblue;
+
 }
